@@ -11,7 +11,7 @@ export default function Footer() {
             <ion-icon class={styles.socialIcon} name="logo-linkedin"></ion-icon>
           </a>
         </li>
-        <li claclassNamess={styles.socialListItem}>
+        <li className={styles.socialListItem}>
           <a href="https://github.com/velarded">
             <ion-icon class={styles.socialIcon} name="logo-github"></ion-icon>
           </a>

@@ -10,7 +10,7 @@ export default function Header() {
           <li className={styles.navListItem}>
             <a href="#experience">Experience</a>
           </li>
-          <li class={styles.navListItem}>
+          <li className={styles.navListItem}>
             <a href="#projects">Projects</a>
           </li>
           <li className={styles.navListItem}>

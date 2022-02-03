@@ -6,9 +6,9 @@ export default function Hero() {
     <div className={styles.heroContainer}>
       <div className={styles.textContainer}>
         <h1 className={styles.nameHeading}>
-          Hi, I'm Danica.
+          Hi, I&apos;m Danica.
           <ion-icon
-            className={styles.helloIcon}
+            class={styles.helloIcon}
             name="hand-right-outline"
           ></ion-icon>
         </h1>

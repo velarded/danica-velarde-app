@@ -5,14 +5,11 @@ export default function Experience() {
     <div className={styles.experienceContainer} id="experience">
       <div className={styles.sectionTitle}>
         <h1>Experience</h1>
-        <ion-icon
-          className={styles.workIcon}
-          name="briefcase-outline"
-        ></ion-icon>
+        <ion-icon class={styles.workIcon} name="briefcase-outline"></ion-icon>
       </div>
 
       <div className={styles.experienceList}>
-        <p className={styles.year}>Jun '19 &mdash; Present</p>
+        <p className={styles.year}>Jun &apos;19 &mdash; Present</p>
         <div className={styles.workExperience}>
           <h1>Scotiabank</h1>
           <p className={styles.workDescription}>
@@ -29,7 +26,7 @@ export default function Experience() {
           </p>
         </div>
 
-        <p className={styles.year}>May &mdash; Aug '18</p>
+        <p className={styles.year}>May &mdash; Aug &apos;18</p>
         <div className={styles.workExperience}>
           <h1>CIBC</h1>
           <p className={styles.workDescription}>
@@ -49,7 +46,7 @@ export default function Experience() {
             Grafana, Prometheus, Bash
           </p>
         </div>
-        <p className={styles.year}>May '16 &mdash; Apr '18</p>
+        <p className={styles.year}>May &apos;16 &mdash; Apr &apos;18</p>
         <div className={styles.workExperience}>
           <h1>PAR Technology Canada</h1>
           <p className={styles.workDescription}>

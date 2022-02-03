@@ -15,8 +15,9 @@
 }
 
 .logo {
+  font-size: 3.6rem;
   letter-spacing: 0.8rem;
-  font-weight: 700;
+  font-weight: 600;
   transition: all 0.3s;
 }
 
