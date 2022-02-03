@@ -1,0 +1,33 @@
+.footer {
+  padding: 2.4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #a2a392;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
+
+.socialslist {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  justify-content: right;
+}
+
+.socialListItem {
+  list-style: none;
+  text-decoration: none;
+}
+
+.socialIcon {
+  width: 3rem;
+  height: 3rem;
+  color: #f8f4e3;
+}

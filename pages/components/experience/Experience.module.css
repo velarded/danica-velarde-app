@@ -1,0 +1,71 @@
+.experienceContainer {
+  padding: 9.6rem;
+}
+
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 9.6rem;
+}
+
+.sectionTitle h1 {
+  text-transform: uppercase;
+  font-size: 4.8rem;
+  padding-right: 1.2rem;
+}
+
+.workIcon {
+  font-size: 3.6rem;
+}
+
+.year {
+  font-weight: bold;
+  font-size: 3.6rem;
+  justify-self: right;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.experienceList {
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+  column-gap: 3.2rem;
+  row-gap: 4.8rem;
+}
+
+.workExperience {
+  padding: 3.2rem;
+  background-color: #414238;
+  border-radius: 0.6rem;
+  position: relative;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
+  color: #f8f4e3;
+}
+
+.workExperience::before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 1.6rem;
+  transform: translateX(-4.8rem);
+  border: medium solid #414238;
+  border-width: 1.6rem 1.6rem 1.6rem 0;
+  border-color: transparent #414238 transparent transparent;
+}
+
+.workExperience h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.workDescription {
+  line-height: 1.4;
+  margin-bottom: 2.8rem;
+}
+
+.technologies {
+  margin-bottom: 1.6rem;
+}

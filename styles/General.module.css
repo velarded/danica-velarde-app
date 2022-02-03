@@ -1,0 +1,10 @@
+.container {
+  min-width: 1300px;
+}
+
+.main {
+  /* background: #f8f4e3; */
+  width: 1400px;
+  margin: 0 auto;
+  z-index: -1;
+}

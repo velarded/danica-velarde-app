@@ -1,16 +1,23 @@
+/* COLOUR PALETTE:
+Eggshell: #f8f4e3
+Timberwolf: #d4cdc3
+Timberwolf: #d5d0cd
+Artichoke: #a2a392
+Spanish Gray: #9a998c
+*/
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  font-size: 62.5%;
+  font-family: "Manrope", sans-serif;
+  background-color: #d4cdc3;
 }
 
 * {
   box-sizing: border-box;
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
 }
