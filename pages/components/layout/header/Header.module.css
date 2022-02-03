@@ -6,7 +6,7 @@
 .navContainer {
   height: 100%;
   /* background: #d4cdc3; */
-  background: #a2a392;
+  background: #630000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,10 +19,11 @@
   letter-spacing: 0.8rem;
   font-weight: 600;
   transition: all 0.3s;
+  color: #eeebdd;
 }
 
 .logo:hover {
-  color: #f8f4e3;
+  color: #d8b6a4;
   cursor: pointer;
 }
 
@@ -38,7 +39,7 @@
 
 .navListItem a {
   text-decoration: none;
-  color: inherit;
+  color: #eeebdd;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   font-weight: 500;
@@ -52,7 +53,7 @@
 }
 
 .navListItem a:hover {
-  color: #f8f4e3;
+  color: #d8b6a4;
 }
 
 .navListItem a:active {

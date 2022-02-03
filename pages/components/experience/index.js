@@ -12,6 +12,7 @@ export default function Experience() {
         <p className={styles.year}>Jun &apos;19 &mdash; Present</p>
         <div className={styles.workExperience}>
           <h1>Scotiabank</h1>
+          <hr color="#000" className={styles.lineDivider} noshade></hr>
           <p className={styles.workDescription}>
             As a part of the Foreign Exchange eFX development team, I maintain
             and implement back-end microservice apps that communicate to the WSS
@@ -26,9 +27,10 @@ export default function Experience() {
           </p>
         </div>
 
-        <p className={styles.year}>May &mdash; Aug &apos;18</p>
-        <div className={styles.workExperience}>
+        {/* <p className={styles.year}>May &mdash; Aug &apos;18</p> */}
+        <div className={styles.workExperienceEven}>
           <h1>CIBC</h1>
+          <hr color="#fff" className={styles.lineDivider} noshade></hr>
           <p className={styles.workDescription}>
             Exploring the interest of Jenkins from my previous internship, I
             spent my last work term on the Software Configuration Management
@@ -46,9 +48,12 @@ export default function Experience() {
             Grafana, Prometheus, Bash
           </p>
         </div>
+        <p className={styles.yearRight}>May &mdash; Aug &apos;18</p>
+
         <p className={styles.year}>May &apos;16 &mdash; Apr &apos;18</p>
         <div className={styles.workExperience}>
           <h1>PAR Technology Canada</h1>
+          <hr color="#000" className={styles.lineDivider} noshade></hr>
           <p className={styles.workDescription}>
             My very first internship within my career. I collaborated with a
             team of interns to work on a project for the PixelPoint POS reports

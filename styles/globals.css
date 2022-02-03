@@ -6,13 +6,19 @@ Artichoke: #a2a392
 Spanish Gray: #9a998c
 */
 
+/* NEW COLOUR PALETTE:
+#EEEBDD
+#D8B6A4
+#630000
+*/
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-size: 62.5%;
   font-family: "Manrope", sans-serif;
-  background-color: #d4cdc3;
+  background-color: #eeebdd;
 }
 
 * {

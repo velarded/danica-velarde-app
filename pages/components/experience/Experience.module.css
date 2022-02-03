@@ -28,20 +28,26 @@
   letter-spacing: 0.1rem;
 }
 
+.yearRight {
+  font-weight: bold;
+  font-size: 3.6rem;
+  justify-self: left;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
 .experienceList {
   display: grid;
-  grid-template-columns: 40fr 60fr;
-  column-gap: 3.2rem;
-  row-gap: 4.8rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 5.2rem;
 }
 
 .workExperience {
   padding: 3.2rem;
-  background-color: #414238;
+  background-color: #d8b6a4;
   border-radius: 0.6rem;
   position: relative;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
-  color: #f8f4e3;
 }
 
 .workExperience::before {
@@ -51,12 +57,35 @@
   height: 0;
   top: 1.6rem;
   transform: translateX(-4.8rem);
-  border: medium solid #414238;
+  border: medium solid #d8b6a4;
   border-width: 1.6rem 1.6rem 1.6rem 0;
-  border-color: transparent #414238 transparent transparent;
+  border-color: transparent #d8b6a4 transparent transparent;
 }
 
-.workExperience h1 {
+.workExperienceEven {
+  padding: 3.2rem;
+  background-color: #630000;
+  color: #ddd;
+  border-radius: 0.6rem;
+  position: relative;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
+}
+
+.workExperienceEven::before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 1.6rem;
+  right: 0;
+  transform: translateX(1.6rem);
+  border: medium solid #000;
+  border-width: 1.6rem 0rem 1.6rem 1.6rem;
+  border-color: transparent transparent transparent #630000;
+}
+
+.workExperience h1,
+.workExperienceEven h1 {
   font-size: 2.4rem;
   margin-bottom: 1.2rem;
 }
@@ -68,4 +97,8 @@
 
 .technologies {
   margin-bottom: 1.6rem;
+}
+
+.lineDivider {
+  margin-bottom: 1.2rem;
 }
